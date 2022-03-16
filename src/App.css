@@ -1,38 +1,137 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calc-app {
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-auto-rows: repeat(5, 1fr);
+  gap: 10px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 10px;
+}
+input {
+  height: 40px;
+  width: 220px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+#clear {
+  color: red;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+#backspace {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#percentage {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+.divide {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+#backspace {
+  color: orangered;
+}
+
+.one {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+
+.two {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+
+.three {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+
+.four {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+
+.five {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+
+.six {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+
+.seven {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+
+.eight {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+
+.nine {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+.multiply {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+.add {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+.zero {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+.doublezero {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+.point {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+.equalto {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+.sub {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
 }
